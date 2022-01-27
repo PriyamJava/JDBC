@@ -5,8 +5,8 @@ public class Student {
 	private String studentName;
 	private String  studentPhone;	
 	private String studentCity;
-	
-	
+
+//constructor to instantiate the Student object
 	
 	public Student(int studentId, String studentName, String studentPhone, String studentCity) {
 
@@ -27,7 +27,7 @@ public class Student {
 	
 	
 	
-	
+// getter and setter to get and set the values of fields	
 	public int getStudentId() {
 		return studentId;
 	}
@@ -54,7 +54,7 @@ public class Student {
 	}
 	
 	
-	
+// tostring method to give meaningful data	
 	
 	@Override
 	public String toString() {
